@@ -1,0 +1,881 @@
+{
+  "settings": {
+    "name": "B2C Landing Page - Be Found",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#336a86",
+        "successColor": "#7ac673",
+        "infoColor": "#336a86",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      },
+      "additionalSetColors": [
+        "#222222",
+        "#ffffff",
+        "#333333",
+        "#555555",
+        "#073e59",
+        "#0a364b"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.6.6",
+    "uniqCompNum": 60,
+    "versionPublish": "4.6.6",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-115432674-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-115432674-1');\r\n</script>\r\n\r\n",
+    "siteUrl": "http://www.avantoria.com",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#0a364b"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#082939"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#0a364b",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header7-o\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">FAQ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html#msg-box18-1l\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header4-18\">Sign Up for free</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons8-circled-v-filled-50-50x50.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AVANTORIA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/coffee-2-2000x1331.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.25,
+            "showIcons": true,
+            "iconsColor": "#fff",
+            "icon1": "fa-trophy",
+            "icon2": "fa-comments",
+            "icon3": "fa-plane",
+            "icon4": "fa-group",
+            "showTitles": true
+          },
+          "title": "Enthusiasts<b> </b>should enjoy<b>&nbsp;</b>a superior<b>&nbsp;experience</b>.<b> </b>At every destination.",
+          "title1": "&nbsp;Curated <br>Experiences",
+          "title2": "Relevant <br>Recommendations",
+          "title3": "Easy to use",
+          "title4": "Community for<br>Enthusiasts",
+          "text": "Avantoria is a platform that is disrupting the way how people travel and discover the best places in the world.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#bottom\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\">Sign up for free<i class=\"fa fa-shopping-basket\"></i></a> ",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-o"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "showIcons": true,
+            "iconsColor": "@primaryColor",
+            "icon1": "fa-mobile",
+            "icon2": "fa-users",
+            "icon3": "fa-trophy"
+          },
+          "title1": "What is avantoria",
+          "title2": "who is it for",
+          "title3": "why avantoria",
+          "title4": "Flashy Look",
+          "text1": "Avantoria is <b>a platform</b>&nbsp;that helps you find splendid places through relevant feedback of: yours. By suggesting your favorite cafes, restaurants or other businesses to your customers, you can ensure they enjoy an experience as great as the one in your store no matter where they are traveling to.&nbsp;",
+          "text2": "Avantoria is perfect <b>for small businesses</b> who seek to deepen the community of coffee enthusiasts and are tired of the existing recommendation systems where they get lost in the unfiltered amount of places. Avantoria helps businesses be found by customers that fit their target audience and fosters a community of loyal customers and other businesses.",
+          "text3": "The key differences to existing search and recommendation platforms are:<br>- A deeply&nbsp;<b>personalized&nbsp;recommendation platform</b> dedicated to creating a&nbsp;<b>community</b><br>- Only customers themselves decide whom &nbsp; &nbsp; &nbsp; &nbsp;they want feedback from<br>- No<b> unqualified ratings</b> such as random &nbsp;feedback, bots etc.<br>- Be found by <b>quality customers </b>from your partners and other businesses<br><br>",
+          "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-u",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1686x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Be found by quality customers.",
+                "contentAlign": "right",
+                "overlay": "true",
+                "text": "Not every customer shares the same values that you and your business stand for. Current search apps provide platforms for unfiltered feedback. Avantoria differs by only showing relevant feedback that is personalized and relevant. By doing so we guarantee that you will be found by the most quality customers you could imagine.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">SIGN UP FOR FREE</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-720x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Eliminate unqualified ratings.",
+                "contentAlign": "right",
+                "overlay": "true",
+                "text": "We at Avantoria believe that the way ratings at current search engines work do not provide much value. That is why we are eliminating this scale completely, and focus only on the recommendations that truly matter. By creating a recommendation system from coffee enthusiasts to coffee enthusiasts, Avantoria ensures a superior and delighting experience in an intuitive way.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">SIGN UP FOR FREE</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "A community for afficionados.",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Avantoria is disrupting the way small businesses reach out to customers and receive the exposure they deserve. By creating a community that can finally exchange all the favorite places in an intuitive way, Avantoria is establishing a platform that puts small, local businesses into the spotlight. With Avantoria, you can shape the journey of your existing customer base even when they are not at your shop. As other businesses will do the same for you, you will ensure inbounding visitors will have an experience as delightful as it should be.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">SIGN UP FOR FREE</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Loyalty at its best.",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Avantoria will help you bring loyalty to the next level. With your business, you have already become a trusted advisor for your customer. Needless to say your customers would much rather receive your recommendations when traveling than from any other individual they haven't met before. With Avantoria this becomes possible in an easy and intuitive way. So even when your customers are currently on the road, it is you who shapes their journey.&nbsp;<br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">SIGN UP FOR FREE</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "A new way of Marketing",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "There is a variety of apps that show your cafe to consumers, but if you have any real input on them finding your place at all it is through purchased advertising. &nbsp;Avantoria is dedicated to connecting you with your existing and new customers in a completely new way, geared towards personalization and interaction. You will finally reach the quality customers that are looking for a superior experience in a unique environment.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg mbr-title-font btn-success\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">sign up for free</a> "
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-3",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<span style=\"font-weight: normal;\">How Avantoria works</span>",
+          "text": "",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_anchor": "msg-box18-k",
+          "_styles": {
+            "H3": {
+              "color": "#222222"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showSubtitle": true,
+            "showText": true,
+            "elements": "5",
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "button1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-info btn-circle\" data-toggle=\"tab\" href=\"#menu1\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-info fa-3x\"></i></a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu2\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-file-text-o fa-3x\"></i></a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu3\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-image fa-3x\"></i></a>",
+          "button4": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu4\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-cogs fa-3x\"></i></a>",
+          "button5": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu5\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-check fa-3x\"></i></a>",
+          "title1": "Create avantoria<br>profile",
+          "title2": "connect to your<br>social media",
+          "title3": "SETUP YOUR recommendations",
+          "title4": "connect with your customers",
+          "title5": "explore all benefits of a loyal community",
+          "subtitle1": "CREATE AVANTORIA PROFILE",
+          "subtitle2": "CONNECT TO YOUR SOCIAL MEDIA",
+          "subtitle3": "SETUP YOUR RECOMMENDATIONS",
+          "subtitle4": "CONNECT WITH YOUR CUSTOMERS",
+          "subtitle5": "EXPLORE ALL BENEFITS OF A LOYAL COMMUNITY",
+          "text1": "First things first. You create a profile on Avantoria, which will be the basis for all your activities and your connections on the platform. As Avantoria is dedicated to helping customers discover unique places for a memorable experience, we will also ask you to describe your mission and what makes you special in order to shape your exposure to your customers. . &nbsp;",
+          "text2": "Connecting with your social media accounts has multiple benefits. While you are already following your favorite cafes, restaurant and other businesses, your followers are enthusiastic about your products and services, and are just waiting for benefiting from your expertise a little further.&nbsp;",
+          "text3": "Setting up your recommendations is the basis for Avantoria's filtered feedback. Your link to your social media account already set the basis, and all the cafes, restaurants and other businesses you are following are already saved as potential recommendations. Browse through them one more time to decide whether your customers really should visit this place when they are traveling, and add other favorites that may not have a social media account.&nbsp;",
+          "text4": "Now that you have set up your profile, your customers can connect with you. Now your customers have access to your favorite places in your hometown and in other cities, so that no matter where they are traveling to they can enjoy a delighting experience at the high quality small businesses in town.&nbsp;",
+          "text5": "With your recommendations you have set up you are shaping your customers journeys no matter where they are. Besides that your shop finally receives the exposure it deserves as other small businesses will recommend you, helping attract travelers craving a superior experience to you.&nbsp;",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box16",
+          "_anchor": "msg-box16-s"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "title1": "Get started now.",
+          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign up for free</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mreichert@avantoria.com",
+            "alerts": {
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-w"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<span style=\"font-weight: normal;\">Benefits at a glance</span>",
+          "text": "Magna eget nunc iaculis dolor amet nunc.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_anchor": "msg-box18-p",
+          "_styles": {
+            "H3": {
+              "color": "#222222"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "elements": "4",
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "showIcons": true,
+            "iconsColor": "@primaryColor",
+            "icon1": "fa-comments",
+            "icon2": "fa-users",
+            "icon3": "fa-plane",
+            "icon4": "fa-trophy"
+          },
+          "title1": "Relevant feedback",
+          "title2": "Customer Community",
+          "title3": "Attract travelers",
+          "title4": "Curate Experiences",
+          "text1": "You provide feedback to customers that share your values and matter the most to you, and vice versa you are being recommended to customers by other businesses. Say good-bye to feedback of bots or random customers.",
+          "text2": "As a trusted expert to your community, you are shaping their experiences around the world. You can bond with your customers and foster loyalty.",
+          "text3": "You refer your customers to other businesses and they will do the same for you. Through this you are reaching non-local customers with similar taste.",
+          "text4": "Big chains are able to create a consistent offering to their customer base world wide. By creating your own community, you can do that even better.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-8"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<span style=\"font-weight: normal;\">Your Customers are the ones that benefit!</span>",
+          "text": "Magna eget nunc iaculis dolor amet nunc.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "H3": {
+              "color": "#222222"
+            }
+          },
+          "_anchor": "msg-box18-10"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "showMedia": true,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "showIcons": true,
+            "iconsColor": "#336a86",
+            "icon1": "fa-tags",
+            "icon2": "fa-bullhorn",
+            "icon3": "fa-calendar",
+            "icon4": "fa-user",
+            "icon5": "fa-star",
+            "icon6": "fa-comments"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-13-at-10.00.31-pm-365x738.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Your Recommendations",
+          "title2": "Trending Today",
+          "title3": "Your Next Trip",
+          "title4": "Profile History",
+          "title5": "Feedback",
+          "title6": "Share",
+          "text1": "Aspire your customers by letting them explore your favorite places<br>",
+          "text2": "Create a complete journey for your customers instead of a single interactions<br><br>",
+          "text3": "Every journey enables a better next one, empowering Avantoria to become better and better",
+          "text4": "All of your recommendations will prevail and help create even more unique experiences",
+          "text5": "We believe in honest, filtered feedback that help the customer make smart decisions",
+          "text6": "Expand your exposure thanks to customers sharing their profile history<br><br>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header22",
+          "_anchor": "header22-7",
+          "_styles": {
+            "H4": {
+              "color": "#333333"
+            },
+            "P": {
+              "color": "#333333"
+            },
+            "i": {
+              "color": "#336a86 !important"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "elements": "3",
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "showIcons": true,
+            "iconsColor": "@primaryColor",
+            "icon1": "fa-television",
+            "icon2": "fa-css3",
+            "icon3": "fa-hand-pointer-o"
+          },
+          "title1": "Better experiences",
+          "title2": "Less effort",
+          "title3": "easy &amp; Fun",
+          "text1": "Customers see recommendations of their selected experts, friends and family. They are in control and and won't be averse to your business because of unqualified ratings or bots. .",
+          "text2": "Connect with your customers in an easy, effecient and seamless way. Customer engagement does not have to be time consuming.&nbsp;",
+          "text3": "See your community grow and aspire your customers by shaping their in an easy and fun way.&nbsp;",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-11"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "title1": "Get started now.",
+          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign up for free</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mreichert@avantoria.com",
+            "alerts": {
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-18"
+        }
+      ]
+    },
+    "faq.html": {
+      "settings": {
+        "title": "FAQ",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#0a364b"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#082939"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#0a364b",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header7-o\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">FAQ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html#msg-box18-1l\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header4-18\">Sign Up for free</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons8-circled-v-filled-50-50x50.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AVANTORIA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "FREQUently asked questions",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-1f\" data-core=\"\" href=\"#collapseOnemsg-box6-1f\" aria-expanded=\"true\" aria-controls=\"collapseOne\">HOW MUCH EFFORT IS IT FOR ME?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-1f\" data-core=\"\" href=\"#collapseTwomsg-box6-1f\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">WHAT IS IN IT FOR ME?</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-1f\" data-core=\"\" href=\"#collapseThreemsg-box6-1f\" aria-expanded=\"true\" aria-controls=\"collapseThree\">how do you ensure there are no fake or unqualified ratings?</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>As a business owner the topics you need to take care of are immense. That is why we want to create the far opposite of another burden for you and rather want to make it as easy and fast as possible. There is no need for constantly staying online in order to answer messages, watch ratings or to share pictures. Instead you engage with your customers through a fully automated system that provides your recommendations to your customers in the city they are currently at. Once you created your profile, connected with your customers and set up your recommendations, alas select your favorite places, you have completed all necessary steps. Another strong asset you have are your baristas, who are already the central point of contact for your customers in your store. Leverage their knowledge and have them share their favorite places through your businesses profile or encourage your customers to connect with you on Avantoria.&nbsp;</p>",
+          "text2": "Avantoria is dedicated to creating a community. A community of enthusiasts with a passion for superior, unique experiences. You will finally be able to shape the experience of your customers beyond your place by complementing their journey with a marvelous discovery. This will bind your customers to you and increase their loyalty.&nbsp;<br>In turn, other businesses you already have an established relationship with or who have had the chance to enjoy the offering, will recommend you to their customers. Your store traffic will increase with, even better, the audience you are targeting.&nbsp;",
+          "text3": "<p>We don't believe in the rating system of current engines, and decided to eliminate this option entirely. Nevertheless with the unbelievable amount of places per city, recommendations (not ratings) help us narrow down our search. Yet it is the valuable recommendations that make for a wonderful experience.&nbsp;</p><p><span style=\"background-color: inherit;\">That is why we came up with the recommendation system from enthusiasts to enthusiasts. We let the customers decide whom they want to seek recommendations from, because we think it is the individual who can decide best whose feedback really provides value. So how do we ensure there are no fake or unqualified ratings? We are eliminating that function. entirely.&nbsp;</span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1f",
+          "_styles": {
+            "DIV": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "14px",
+              "color": "#555555"
+            },
+            "H1": {
+              "color": "#073e59"
+            }
+          }
+        }
+      ]
+    },
+    "about-us.html": {
+      "settings": {
+        "title": "About Us",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#0a364b"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#082939"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#0a364b",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header7-o\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">FAQ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html#msg-box18-1l\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header4-18\">Sign Up for free</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons8-circled-v-filled-50-50x50.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AVANTORIA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1g"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "About us&nbsp;",
+          "text": "Our mission.&nbsp;",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_anchor": "msg-box18-1l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "HoW IT all started",
+          "text1": "We love to travel and to discover the world, and we equally love superior coffee ahd food experiences. So whenever we are traveling, we are researching online to find the best small businesses representing the local culture and offering the superior quality that we are used to from our favorite shops in our hometown. Yet the current recommendation systems do not really facilitate this discovery, as the collection of places comes completely unfiltered, and the ratings come from foreigners who may have a completely different taste. Even though we spend massive amounts of time trying to find the local gems it is more likely that we cannot find what we are hoping for than being completely delighted. ",
+          "text2": "We thought that there has to be a better way of recommendation systems providing actual value to businesses and consumers. We at Avantoria believe that If there is one group who knows great places offering a superior quality and splendid experience, then these are the business owners themselves. If we would receive a list of favorites from our preferred business in every city that we are visiting, there is no doubt that we will be delighted at all times.&nbsp;<br>Our mission is to create a community of passionate business owners and enthusiastic customers to ensure an experience of consistent superior quality no matter where they are.&nbsp;",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box12",
+          "_anchor": "msg-box12-1m"
+        }
+      ]
+    }
+  }
+}
