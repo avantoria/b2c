@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
 
 .btn.btn-primary {
@@ -166,20 +167,24 @@ p {
 #dropdown-menu-1a .navbar-toggler {
   color: #ffffff;
 }
+#header7-o P {
+  text-align: center;
+}
+#header7-o H3 {
+  text-align: center;
+}
 #features4-u P {
   text-align: left;
 }
-#slider-3 H1 {
+#pricing-table1-1q SPAN {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+#pricing-table1-1q UL {
+  font-size: 16px;
+}
+#pricing-table1-1q H3 {
   text-align: center;
-}
-#slider-3 P {
-  text-align: center;
-}
-#msg-box18-k H3 {
-  color: #222222;
-}
-#msg-box18-p H3 {
-  color: #222222;
 }
 #msg-box18-10 H3 {
   color: #222222;
