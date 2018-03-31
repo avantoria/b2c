@@ -106,7 +106,7 @@
             "paddingBottom": 0,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/19.jpg",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
             "bgVideoRadio": false,
@@ -175,7 +175,8 @@
               "text-align": "center"
             },
             "SPAN": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "color": "#222222"
             }
           },
           "_anchor": "msg-box18-29"
@@ -254,7 +255,8 @@
               "text-align": "center"
             },
             "SPAN": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "color": "#222222"
             }
           },
           "_anchor": "msg-box18-27"
