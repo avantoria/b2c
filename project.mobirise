@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -352,7 +352,7 @@
             }
           },
           "title": "RECOMMENDATIONS THAT MATTER",
-          "text": "How to find the best places? We believe it is your favorite experts, favorite bloggers and friends who know where to go. Matched with your personal preferences, you will find all the best places at one spot so that every single experience will be simply fantastic.",
+          "text": "How to find the best places? We believe it is your favorite experts, favorite bloggers and friends who know where to go. Matched with your personal preferences, you will find all the best places in one app so that every single experience will be simply fantastic.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -404,7 +404,7 @@
             }
           },
           "title": "NO MORE UNRELIABLE FEEDBACK",
-          "text": "The value of ratings from foreigners with a completely different taste is limited. With Avantoria this unreliable feedback becomes a thing of the past as we eliminate foreign sources entirely, You will only get recommendations from individuals you select.&nbsp;",
+          "text": "The value of ratings from foreigners with a completely different taste is limited. With Avantoria this unreliable feedback becomes a thing of the past as we eliminate foreign sources entirely. You will only get recommendations from the individuals you select.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -456,7 +456,7 @@
             }
           },
           "title": "SHARING 2.0",
-          "text": "Do you create email templates that come in handy when someone is asking you again about your favorite places in your hometown? Time to say goodbye to those. With Avantoria you can share your favorite places in just one click. However again just with those individuals you have established a connection with.&nbsp;",
+          "text": "Do you create email templates you sent when being asked about your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click. However again just with those individuals you have established a connection with.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -490,8 +490,8 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.8"
           },
-          "title1": "Find out more.",
-          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
+          "title1": "A great experience.",
+          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign me up!</a>",
           "form": {
             "title": "SUBSCRIBE",
@@ -549,14 +549,14 @@
           "currency1": "",
           "price1": "",
           "period1": "",
-          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free in 1 minute</li><li class=\"pricing__feature\">Select your personal preferences</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite places, bloggers and friends<br></span></li></ul>",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite experts, bloggers and friends<br></span></li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
           "title2": "SEARCH FOR PLACES",
           "text2": "",
           "currency2": "",
           "price2": "",
           "period2": "",
-          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Browse through a select list of recommendations</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">See what your recommenders enjoy about the place</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what makes it special</span></li></ul>",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Discover only those places that match your preferences</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what your recommenders enjoy about these places</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Have a great experience</span></li></ul>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Check our favorites</a>",
           "title3": "ShARE YOUR GREAT EXPERIENCE",
           "text3": "",
@@ -662,18 +662,18 @@
               "title": ""
             }
           },
-          "title1": "Your Recommendations",
+          "title1": "Recommendations",
           "title2": "Trending Today",
           "title3": "Your Next Trip",
           "title4": "Profile History",
           "title5": "Feedback",
           "title6": "Share",
-          "text1": "Aspire your customers by letting them explore your favorite places<br>",
-          "text2": "Create a complete journey for your customers instead of a single interactions<br><br>",
-          "text3": "Every journey enables a better next one, empowering Avantoria to become better and better",
-          "text4": "All of your recommendations will prevail and help create even more unique experiences",
-          "text5": "We believe in honest, filtered feedback that help the customer make smart decisions",
-          "text6": "Expand your exposure thanks to customers sharing their profile history<br><br>",
+          "text1": "Find all the recommended places from your trusted experts and friends in one spot&nbsp;",
+          "text2": "Our lists of local businesses got you covered for every time of the day",
+          "text3": "Prepare for the next trip by browsing through the recommended best local places today&nbsp;",
+          "text4": "Your profile will become a set of memories ready to be shared with your community",
+          "text5": "Let the local business know what you think was great and what could be improved",
+          "text6": "Share your favorite places with friends, colleagues and family with one single click",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -712,9 +712,9 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.8"
           },
-          "title1": "Get started now.",
-          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign up for free</a>",
+          "title1": "A great experience.",
+          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours. ",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign ME UP!</a>",
           "form": {
             "title": "SUBSCRIBE",
             "action": "mreichert@avantoria.com",
