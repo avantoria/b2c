@@ -176,7 +176,7 @@
             },
             "SPAN": {
               "font-size": "48px",
-              "color": "#222222"
+              "color": "#333333"
             }
           },
           "_anchor": "msg-box18-29"
@@ -256,7 +256,7 @@
             },
             "SPAN": {
               "font-size": "48px",
-              "color": "#222222"
+              "color": "#333333"
             }
           },
           "_anchor": "msg-box18-27"
@@ -549,7 +549,7 @@
           "currency1": "",
           "price1": "",
           "period1": "",
-          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up in 1 minute</li><li class=\"pricing__feature\">Select your personal preferences</li><li class=\"pricing__feature\">Connect with your favorite places, bloggers and friends<br><br></li></ul>",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up in 1 minute</li><li class=\"pricing__feature\">Select your personal preferences</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite places, bloggers and friends<br></span></li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
           "title2": "SEARCH FOR PLACES",
           "text2": "",
