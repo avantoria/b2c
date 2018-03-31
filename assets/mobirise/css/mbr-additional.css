@@ -221,7 +221,6 @@ p {
 #header22-7 i {
   color: #336a86 !important;
 }
-
 #dropdown-menu-1b .hide-buttons [data-button] {
   display: none !important;
 }
@@ -240,14 +239,6 @@ p {
   background: #082939;
 }
 #dropdown-menu-1b .navbar-toggler {
-  color: #ffffff;
-}
-#msg-box6-1f DIV {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  color: #555555;
-}
-#msg-box6-1f H1 {
   color: #ffffff;
 }
 #dropdown-menu-1g .hide-buttons [data-button] {
