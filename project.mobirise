@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "B2C Landing Page - Rewards Simple-clone",
-    "currentPage": "index.html",
+    "name": "B2C Landing Page - Rewards Simple-v2",
+    "currentPage": "about-us.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -809,7 +809,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#0a364b",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -845,7 +845,7 @@
               "color": "#555555"
             },
             "H1": {
-              "color": "#073e59"
+              "color": "#ffffff"
             }
           }
         }
