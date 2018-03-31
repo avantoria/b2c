@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "B2C Landing Page - Rewards Simple",
+    "name": "B2C Landing Page - Rewards Simple-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "unicore",
@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 68,
+    "uniqCompNum": 82,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -70,8 +70,8 @@
             "logo": false,
             "showBrand": true,
             "hideButtons": false,
-            "sticky": false,
-            "transparent": false,
+            "sticky": true,
+            "transparent": true,
             "bgColor": "#0a364b",
             "fontSize": "1",
             "fontName": {},
@@ -100,12 +100,13 @@
           "_params": {
             "showTitle": true,
             "showText": true,
+            "showMedia": true,
             "showButtons": true,
             "paddingTop": 2,
-            "paddingBottom": "1",
+            "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/coffee-2-2000x1331.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/19.jpg",
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
             "bgVideoRadio": false,
@@ -113,44 +114,78 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.3",
-            "showIcons": false,
-            "iconsColor": "#fff",
-            "icon1": "fa-trophy",
-            "icon2": "fa-comments",
-            "icon3": "fa-plane",
-            "icon4": "",
-            "showTitles": false
+            "overlayColor": "#000",
+            "overlayOpacity": 0.85
           },
-          "title": "<b>Discovering the best places doesn't have to be a challenge</b>",
-          "title1": "&nbsp;Curated <br>Experiences",
-          "title2": "Relevant <br>Recommendations",
-          "title3": "Easy to use",
-          "title4": "",
-          "text": "Find the best local places through feedback you can trust. Because your favorite shops, your favorite bloggers and your friends know where to go to have a great experience.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" href=\"#bottom\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\">Sign me up!<i class=\"fa fa-shopping-basket\"></i></a> ",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/share-copy-370x732.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Explore. Find. Share.",
+          "text": "Discover hidden gems by exploring places recommended by your trusted friends and experts.",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header7",
-          "_anchor": "header7-o",
+          "_name": "header12",
+          "_anchor": "header12-23"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<span style=\"font-weight: normal;\">Avantoria knows what matters to you.</span>",
+          "text": "Magna eget nunc iaculis dolor amet nunc.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
           "_styles": {
-            "P": {
+            "H3": {
+              "color": "#222222",
               "text-align": "center"
             },
-            "H3": {
-              "text-align": "center"
+            "SPAN": {
+              "font-size": "48px"
             }
-          }
+          },
+          "_anchor": "msg-box18-29"
         },
         {
           "_params": {
             "showTitles": true,
             "showText": true,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
@@ -173,7 +208,7 @@
           "title2": "who is it for",
           "title3": "why avantoria",
           "title4": "Flashy Look",
-          "text1": "Avantoria is <b>a platform</b>&nbsp;that helps you find splendid places both at home and when traveling through feedback that is actually relevant. Because who has the time to browse through a multitude of places in order to have a disappointing experience?&nbsp;",
+          "text1": "Avantoria is <b>an app</b>&nbsp;that helps you find splendid places both at home and when traveling through feedback that is actually relevant. Because who has the time to browse through a multitude of places in order to have a disappointing experience? <a href=\"index.html#msg-box4-1s\">Learn more.</a>",
           "text2": "Avantoria is perfect <b>for everyone</b>&nbsp;who is seeking superior experiences and is tired of existing recommendation systems providing feedback from foreign unreliable sources.&nbsp;",
           "text3": "The key differences to existing search and recommendation platforms are:<br>- &nbsp;You decide whom you want to receive feedback from<br>- No<b> unqualified ratings</b> such as random &nbsp;feedback, bots etc.<br>- Trustful feedback and wonderful experiences. Guaranteed.&nbsp;<br><br>",
           "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
@@ -191,76 +226,38 @@
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "elements": "3",
-            "best": "4",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#3F51B5",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.5"
           },
-          "title": "How it works",
-          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue",
-          "favorite": "Most Popular",
-          "title1": "Create your Profile",
-          "text1": "",
-          "currency1": "",
-          "price1": "",
-          "period1": "",
-          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up in 1 minute</li><li class=\"pricing__feature\">Select your personal preferences</li><li class=\"pricing__feature\">Connect with your favorite places, bloggers and friends</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
-          "title2": "SEARCH FOR PLACES",
-          "text2": "",
-          "currency2": "",
-          "price2": "",
-          "period2": "",
-          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Browse through select list of recommendations</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">See what your recommenders enjoy about the place</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what makes it special</span></li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\">CHOOSE PLAN</a>",
-          "title3": "ShARE YOUR GREAT EXPERIENCE",
-          "text3": "",
-          "currency3": "",
-          "price3": "",
-          "period3": "",
-          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Loyal customers spend more money</span></li><li class=\"pricing__feature\"><br></li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
-          "title4": "SUPER",
-          "text4": "Perfect for small less than 10 team",
-          "currency4": "$",
-          "price4": "199",
-          "period4": "/ month",
-          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\">CHOOSE PLAN</a>",
+          "title": "<span style=\"font-weight: normal;\">Features you've been looking for.</span>",
+          "text": "Magna eget nunc iaculis dolor amet nunc.",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-1q",
+          "_name": "msg-box18",
           "_styles": {
-            "SPAN": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "14px"
-            },
-            "UL": {
-              "font-size": "16px"
-            },
             "H3": {
+              "color": "#222222",
               "text-align": "center"
+            },
+            "SPAN": {
+              "font-size": "48px"
             }
-          }
+          },
+          "_anchor": "msg-box18-27"
         },
         {
           "_params": {
@@ -269,7 +266,7 @@
             "showButtons": true,
             "showMedia": true,
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
@@ -307,7 +304,13 @@
             "Theme"
           ],
           "_name": "msg-box4",
-          "_anchor": "msg-box4-1s"
+          "_anchor": "msg-box4-1s",
+          "_styles": {
+            "H3": {
+              "text-align": "left",
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -317,7 +320,7 @@
             "showMedia": true,
             "bgImageRadio": false,
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "0",
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
@@ -354,7 +357,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-1t"
+          "_anchor": "msg-box5-1t",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -401,7 +409,12 @@
             "Theme"
           ],
           "_name": "msg-box4",
-          "_anchor": "msg-box4-1u"
+          "_anchor": "msg-box4-1u",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -410,8 +423,8 @@
             "showButtons": true,
             "showMedia": true,
             "bgImageRadio": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
@@ -448,55 +461,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-1v"
-        },
-        {
-          "_params": {
-            "showTitles": true,
-            "showSubtitle": true,
-            "showText": true,
-            "elements": "5",
-            "paddingTop": 2,
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "button1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-info btn-circle\" data-toggle=\"tab\" href=\"#menu1\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-info fa-3x\"></i></a>",
-          "button2": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu2\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-file-text-o fa-3x\"></i></a>",
-          "button3": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu3\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-image fa-3x\"></i></a>",
-          "button4": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu4\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-cogs fa-3x\"></i></a>",
-          "button5": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu5\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-check fa-3x\"></i></a>",
-          "title1": "Create avantoria<br>profile",
-          "title2": "connect to your<br>social media",
-          "title3": "SETUP YOUR recommendations",
-          "title4": "connect with your customers",
-          "title5": "explore all benefits of a loyal community",
-          "subtitle1": "CREATE AVANTORIA PROFILE",
-          "subtitle2": "CONNECT TO YOUR SOCIAL MEDIA",
-          "subtitle3": "SETUP YOUR RECOMMENDATIONS",
-          "subtitle4": "CONNECT WITH YOUR CUSTOMERS",
-          "subtitle5": "EXPLORE ALL BENEFITS OF A LOYAL COMMUNITY",
-          "text1": "First things first. You create a profile on Avantoria, which will be the basis for all your activities and your connections on the platform. As Avantoria is dedicated to helping customers discover unique places for a memorable experience, we will also ask you to describe your mission and what makes you special in order to shape your exposure to your customers. . &nbsp;",
-          "text2": "Connecting with your social media accounts has multiple benefits. While you are already following your favorite cafes, restaurant and other businesses, your followers are enthusiastic about your products and services, and are just waiting for benefiting from your expertise a little further.&nbsp;",
-          "text3": "Setting up your recommendations is the basis for Avantoria's filtered feedback. Your link to your social media account already set the basis, and all the cafes, restaurants and other businesses you are following are already saved as potential recommendations. Browse through them one more time to decide whether your customers really should visit this place when they are traveling, and add other favorites that may not have a social media account.&nbsp;",
-          "text4": "Now that you have set up your profile, your customers can connect with you. Now your customers have access to your favorite places in your hometown and in other cities, so that no matter where they are traveling to they can enjoy a delighting experience at the high quality small businesses in town.&nbsp;",
-          "text5": "With your recommendations you have set up you are shaping your customers journeys no matter where they are. Besides that your shop finally receives the exposure it deserves as other small businesses will recommend you, helping attract travelers craving a superior experience to you.&nbsp;",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box16",
-          "_anchor": "msg-box16-s"
+          "_anchor": "msg-box5-1v",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -549,6 +519,79 @@
         },
         {
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "elements": "3",
+            "best": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#0a364b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "How avantoria works",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue",
+          "favorite": "Most Importantly",
+          "title1": "Create your Profile",
+          "text1": "",
+          "currency1": "",
+          "price1": "",
+          "period1": "",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up in 1 minute</li><li class=\"pricing__feature\">Select your personal preferences</li><li class=\"pricing__feature\">Connect with your favorite places, bloggers and friends<br><br></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
+          "title2": "SEARCH FOR PLACES",
+          "text2": "",
+          "currency2": "",
+          "price2": "",
+          "period2": "",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Browse through a select list of recommendations</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">See what your recommenders enjoy about the place</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what makes it special</span></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Check our favorites</a>",
+          "title3": "ShARE YOUR GREAT EXPERIENCE",
+          "text3": "",
+          "currency3": "",
+          "price3": "",
+          "period3": "",
+          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Share your secret gems to your network</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Help your friends have splendid experiences</span></li><li class=\"pricing__feature\">Benefit from a community that shares your values</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\">CHOOSE PLAN</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-1q",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "14px"
+            },
+            "UL": {
+              "font-size": "16px"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
@@ -564,7 +607,7 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.5"
           },
-          "title": "<span style=\"font-weight: normal;\">Your Customers are the ones that benefit!</span>",
+          "title": "<span style=\"font-weight: normal;\">Features at a glance.</span>",
           "text": "Magna eget nunc iaculis dolor amet nunc.",
           "alias": "unicore/components",
           "_tags": [
@@ -649,44 +692,6 @@
         },
         {
           "_params": {
-            "showTitles": true,
-            "showText": true,
-            "elements": "3",
-            "paddingTop": "0",
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5,
-            "showIcons": true,
-            "iconsColor": "@primaryColor",
-            "icon1": "fa-television",
-            "icon2": "fa-css3",
-            "icon3": "fa-hand-pointer-o"
-          },
-          "title1": "Better experiences",
-          "title2": "Less effort",
-          "title3": "easy &amp; Fun",
-          "text1": "Customers see recommendations of their selected experts, friends and family. They are in control and and won't be averse to your business because of unqualified ratings or bots. .",
-          "text2": "Connect with your customers in an easy, effecient and seamless way. Customer engagement does not have to be time consuming.&nbsp;",
-          "text3": "See your community grow and aspire your customers by shaping their in an easy and fun way.&nbsp;",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features6",
-          "_anchor": "features6-11"
-        },
-        {
-          "_params": {
             "showTitle": true,
             "showText": true,
             "showForm": true,
@@ -733,63 +738,6 @@
           ],
           "_name": "header4",
           "_anchor": "header4-18"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showSubtitles": true,
-            "tabs": "3",
-            "showMedia": true,
-            "bgImageRadio": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "images/iphone.png"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "Tab Content",
-          "title1": "Tab heading 1",
-          "title2": "Tab heading 2",
-          "title3": "Tab heading 3",
-          "title4": "Tab heading 4",
-          "title5": "Tab heading 5",
-          "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"active\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab1\" aria-expanded=\"true\">Responsive</a></li><li><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab3\">Animated</a></li><li><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab2\">Creative</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab4\">Awesome</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab5\">Amazing</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab6\">Beautiful</a></li>",
-          "text1_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "text2_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "text3_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "text4_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "text5_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "text6_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content8",
-          "_anchor": "content8-1r"
         }
       ]
     },
@@ -823,8 +771,8 @@
             "logo": false,
             "showBrand": true,
             "hideButtons": false,
-            "sticky": false,
-            "transparent": false,
+            "sticky": true,
+            "transparent": true,
             "bgColor": "#0a364b",
             "fontSize": "1",
             "fontName": {},
@@ -931,8 +879,8 @@
             "logo": false,
             "showBrand": true,
             "hideButtons": false,
-            "sticky": false,
-            "transparent": false,
+            "sticky": true,
+            "transparent": true,
             "bgColor": "#0a364b",
             "fontSize": "1",
             "fontName": {},
