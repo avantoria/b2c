@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -21,12 +21,13 @@
         "#333333",
         "#555555",
         "#073e59",
-        "#0a364b"
+        "#0a364b",
+        "#213c45"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 90,
+    "uniqCompNum": 101,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -137,7 +138,7 @@
           },
           "title": "Explore. Find. Share.",
           "text": "Discover hidden gems by exploring places recommended by your trusted friends and experts.",
-          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -210,7 +211,7 @@
           "title3": "why avantoria",
           "title4": "Flashy Look",
           "text1": "Avantoria is <b>an app</b>&nbsp;that helps you find splendid places both at home and when traveling through feedback that is actually relevant to you. Because who has the time to browse through a multitude of places in order to have a disappointing experience? <a href=\"index.html#msg-box4-1s\">Learn more.</a>",
-          "text2": "Avantoria is perfect <b>for everyone</b>&nbsp;who is seeking superior experiences and is tired of existing recommendation systems providing feedback from foreign unreliable sources.&nbsp;",
+          "text2": "Avantoria is perfect <b>for everyone</b>&nbsp;who is seeking superior experiences and is tired of existing recommendation systems providing feedback from foreign unreliable sources.<br><a href=\"index.html#testimonials2-2g\">What others say</a>.",
           "text3": "The key differences to existing search and recommendation platforms are:<br>- &nbsp;You decide whom you want to receive feedback from<br>- No<b> unqualified ratings</b> such as random &nbsp;feedback, bots etc.<br>- Trustful feedback and wonderful experiences. Guaranteed.&nbsp;<br><br>",
           "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
           "alias": "unicore/components",
@@ -267,7 +268,7 @@
             "showText": true,
             "showButtons": true,
             "showMedia": true,
-            "paddingTop": 2,
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
@@ -287,7 +288,7 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/upcoming-trips-wide-bg-1008x731.png",
+              "src": "@PROJECT_PATH@/assets/images/your-network-wide-bg-1080x745.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -302,8 +303,8 @@
             }
           },
           "title": "RECOMMENDATIONS THAT MATTER&nbsp;",
-          "text": "Rather than ratings from foreigners or systems that are not familiar with your preferences, we believe it is your favorite experts, bloggers and friends who know the best places. Instead of spending hours exploring the options across different search engines, be delighted by the recommendations from your trusted sources.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
+          "text": "Rather than ratings from foreigners or systems that are not familiar with your preferences, we believe it is your favorite experts, bloggers and friends who know the best places. Instead of spending hours exploring the options across different search engines, be delighted by the recommendations from your trusted sources.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -358,8 +359,8 @@
             }
           },
           "title": "EXPLORE THE UNIMAGINEABLE&nbsp;",
-          "text": "Prepare for a trip in a way that has not been possible before. Add destinations and see all the places your favorite chefs, baristas, bloggers, friends and all others you selected as sources enjoy in one single app. Dream and reminisce about experiences in a way no other app can offer.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
+          "text": "Prepare for a trip in a way that has not been possible before. Add destinations and see all the places your favorite chefs, baristas, bloggers, friends and all others you selected as sources enjoy in one single app. Dream and reminisce about experiences in a way no other app can offer.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -378,9 +379,9 @@
             "showText": true,
             "showButtons": true,
             "showMedia": true,
+            "paddingTop": 2,
+            "paddingBottom": "0",
             "bgImageRadio": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
@@ -413,8 +414,64 @@
             }
           },
           "title": "SHARING 2.0",
-          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
+          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "text-align": "left",
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box4-2i"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true,
+            "bgImageRadio": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/profile-wide-bg-1080x732.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Profile Reimagined",
+          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -507,7 +564,7 @@
           "price1": "",
           "period1": "",
           "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite experts, bloggers and friends<br></span></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
           "title2": "SEARCH FOR PLACES",
           "text2": "",
           "currency2": "",
@@ -806,7 +863,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Finding great places in only 4 steps.",
-          "text": "Magna eget nunc iaculis dolor amet nunc.",
+          "text": "",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -843,7 +900,7 @@
           "title4": "ENJOY",
           "title5": "SHARE",
           "text1": "Our goal is to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile.&nbsp;",
-          "text2": "Choose from a list of your favorite chefs, baristas, bloggers, friends, family and colleagues, or whomever else you trust when it comes to best places. It is you who is in the driver's seat when it comes to nominating your experts.&nbsp;",
+          "text2": "Choose from a list of your favorite chefs, baristas, bloggers, friends, family and colleagues, or whomever else you trust for recommendations. It is you who is in the driver's seat when it comes to nominating your experts.&nbsp;",
           "text3": "Whether you are looking for new gems in your hometown or for your next trip, browse through the places your experts endorse and see what makes them special. Combined with your personal preferences this will ensure that each one of those places will be truly delighting.&nbsp;",
           "text4": "This one is simple: just go there and enjoy the offering!",
           "text5": "Help your friends have a delighting experience and help this fantastic gem to be found by sharing the place with your friend or relative.&nbsp;",
@@ -862,7 +919,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10803.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10804.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -1015,6 +1072,238 @@
           ],
           "_name": "msg-box12",
           "_anchor": "msg-box12-1m"
+        }
+      ]
+    },
+    "ourfavorits.html": {
+      "settings": {
+        "title": "Check our Favorites",
+        "order": 4,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#0a364b"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#082939"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#0a364b",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header7-o\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">HOW IT WORKS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html#msg-box18-1l\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header4-18\">Sign Up!</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons8-circled-v-filled-50-50x50.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AVANTORIA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#0a364b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "title1": "Thank you for your interest",
+          "text": "You've caught us before we are ready. Be the first one to know when we are ready with the list of our personal favorites across the world. In the meantime leave your email so that we can are the first to be notified with updates from Avantoria.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign ME UP!</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mreichert@avantoria.com",
+            "alerts": {
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header4-2s"
+        }
+      ]
+    },
+    "notready.html": {
+      "settings": {
+        "title": "Not Quite Ready",
+        "order": 3,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#0a364b"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#082939"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#0a364b",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header7-o\">home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"faq.html\">HOW IT WORKS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about-us.html#msg-box18-1l\" aria-expanded=\"false\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header4-18\">Sign Up!</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons8-circled-v-filled-50-50x50.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">AVANTORIA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2k"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#0a364b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "title1": "Thank you for your interest",
+          "text": "You've caught us before we are ready. Be the first one to know when we have news. Register now.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign ME UP!</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mreichert@avantoria.com",
+            "alerts": {
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-2n",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
