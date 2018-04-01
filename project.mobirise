@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "index.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -343,10 +343,13 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/upcoming-trips-wide-bg-1008x731.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
             },
             "video": {
-              "active": true,
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
@@ -548,6 +551,38 @@
         },
         {
           "_params": {
+            "showIcon": true,
+            "showAuthorName": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "text1_1": "Finally I don't have to ask around for recommendations in my social community. Avantoria enables me to benefit from the experience of my friends and my favorite restaurants whenever I am on the road.&nbsp;",
+          "text1_2": "SUSAN Dave&nbsp;",
+          "text2_1": "I love browsing online for new places in my hometown and for travels. But many of the places on search engines turn out to be a disappointment. With Avantoria those disappointments are finally over, and browsing for new places is just so much more fun.&nbsp;",
+          "text2_2": "VALENTINA DOE",
+          "text3_1": "I am travelling a lot for business and don't have the time to search for great places, so I often end up at the chains because I know what to expect. Avantoria is showing me the best places near me, allowing me to explore local businesses with the same if not even superior quality.",
+          "text3_2": "TIM FIELDS",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-2g"
+        },
+        {
+          "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
@@ -645,38 +680,6 @@
               "color": "#336a86 !important"
             }
           }
-        },
-        {
-          "_params": {
-            "showIcon": true,
-            "showAuthorName": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text1_1": "Finally I don't have to ask around for recommendations in my social community. Avantoria enables me to benefit from the experience of my friends and my favorite restaurants whenever I am on the road.&nbsp;",
-          "text1_2": "SUSAN Dave&nbsp;",
-          "text2_1": "I love browsing online for new places in my hometown and for travels. But many of the places on search engines turn out to be a disappointment. With Avantoria those disappointments are finally over, and browsing for new places is just so much more fun.&nbsp;",
-          "text2_2": "VALENTINA DOE",
-          "text3_1": "I am travelling a lot for business and don't have the time to search for great places, so I often end up at the chains because I know what to expect. Avantoria is showing me the best places near me, allowing me to explore local businesses with the same if not even superior quality.",
-          "text3_2": "TIM FIELDS",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials2",
-          "_anchor": "testimonials2-2g"
         },
         {
           "_params": {
@@ -834,12 +837,12 @@
             "icon4": "fa-globe",
             "icon5": "fa-globe"
           },
-          "title1": "EXPLORE",
+          "title1": "CREATE YOUR PROFILE",
           "title2": "FIND",
           "title3": "ENJOY",
           "title4": "SHARE",
           "title5": "DO IT ALL AGAIN",
-          "text1": "Whats up for lunch?&nbsp;",
+          "text1": "Our goal is to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile.&nbsp;",
           "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
@@ -859,7 +862,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10801.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10802.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
