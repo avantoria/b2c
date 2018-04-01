@@ -27,7 +27,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 101,
+    "uniqCompNum": 110,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -138,7 +138,7 @@
           },
           "title": "Explore. Find. Share.",
           "text": "Discover hidden gems by exploring places recommended by your trusted friends and experts.",
-          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -488,11 +488,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showForm": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "showMedia": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/19.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -501,37 +502,36 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.8"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.85
           },
-          "title1": "Explore the best places now.",
-          "text": "Select the city and the expert you want to receive recommendations from and be delighted with fantastic options.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBMIT</a>",
-          "form": {
-            "title": "SUBSCRIBE",
-            "action": "mreichert@avantoria.com",
-            "alerts": {
-              "success": "Uh-oh, I am sorry! You caught us a little too early as we are not quite there yet. Stay tuned for the app!"
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/share-copy-370x732.png",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Full Name",
-                "customTitle": "City"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Expert"
-              }
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
           },
+          "title": "Download now.",
+          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours.",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_anchor": "header4-w"
+          "_name": "header12",
+          "_anchor": "header12-2w"
         },
         {
           "_params": {
@@ -564,21 +564,21 @@
           "price1": "",
           "period1": "",
           "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite experts, bloggers and friends<br></span></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"page3.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
           "title2": "SEARCH FOR PLACES",
           "text2": "",
           "currency2": "",
           "price2": "",
           "period2": "",
           "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Discover only those places that match your preferences</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what your recommenders enjoy about these places</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Have a great experience</span></li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Check our favorites</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"ourfavorits.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Check our favorites</a>",
           "title3": "ShARE YOUR GREAT EXPERIENCE",
           "text3": "",
           "currency3": "",
           "price3": "",
           "period3": "",
           "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Share your secret gems to your network</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Help your friends have splendid experiences</span></li><li class=\"pricing__feature\">Benefit from a community that shares your values</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"faq.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
           "title4": "SUPER",
           "text4": "Perfect for small less than 10 team",
           "currency4": "$",
@@ -637,6 +637,65 @@
           ],
           "_name": "testimonials2",
           "_anchor": "testimonials2-2g"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-762x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#0a364b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Explore the best places now.",
+          "text": "<br>Select the city and the expert you want to receive recommendations from and be delighted with fantastic options.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Explore now!</a>",
+          "form": {
+            "action": "mreichert@avantoria.com",
+            "alerts": {
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "customTitle": "Full Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "customTitle": "Your City"
+              },
+              "email": {
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form4",
+          "_styles": {
+            "H5": {
+              "color": "#ffffff",
+              "font-size": "60px"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-size": "17px"
+            }
+          },
+          "_anchor": "form4-2x"
         },
         {
           "_params": {
@@ -742,11 +801,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showForm": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "showMedia": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/19.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -755,37 +815,36 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.8"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.85
           },
-          "title1": "Download now.",
-          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours. ",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign ME UP!</a>",
-          "form": {
-            "title": "SUBSCRIBE",
-            "action": "mreichert@avantoria.com",
-            "alerts": {
-              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/share-copy-370x732.png",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Full Name",
-                "customTitle": "Full Name"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email Address here"
-              }
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
           },
+          "title": "Download now.",
+          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours.",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"faq.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_anchor": "header4-18"
+          "_name": "header12",
+          "_anchor": "header12-2t"
         }
       ]
     },
@@ -888,11 +947,11 @@
             "overlay": true,
             "overlayColor": "#151515",
             "overlayOpacity": 0.5,
-            "icon1": "fa-money",
-            "icon2": "fa-picture-o",
-            "icon3": "fa-rocket",
-            "icon4": "fa-globe",
-            "icon5": "fa-globe"
+            "icon1": "fa-user",
+            "icon2": "fa-share-alt",
+            "icon3": "fa-globe",
+            "icon4": "fa-smile",
+            "icon5": "fa-share"
           },
           "title1": "CREATE YOUR PROFILE",
           "title2": "FOLLOW your experts",
@@ -915,11 +974,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showForm": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "showMedia": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10804.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/19.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -928,37 +988,36 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.8"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.85
           },
-          "title1": "Get started now.",
-          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign up for free</a>",
-          "form": {
-            "title": "SUBSCRIBE",
-            "action": "rreichert@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/share-copy-370x732.png",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Full Name",
-                "customTitle": "Full Name"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email Address here"
-              }
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
           },
+          "title": "Get started now.",
+          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_anchor": "header4-2h"
+          "_name": "header12",
+          "_anchor": "header12-2y"
         }
       ]
     },
@@ -1136,11 +1195,10 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showForm": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#0a364b",
@@ -1150,25 +1208,26 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": "0.8"
+            "overlayOpacity": 0.5
           },
-          "title1": "Thank you for your interest",
-          "text": "You've caught us before we are ready. Be the first one to know when we are ready with the list of our personal favorites across the world. In the meantime leave your email so that we can are the first to be notified with updates from Avantoria.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign ME UP!</a>",
+          "title": "Thank you for your interest",
+          "text": "<br>You've caught us before we are ready. Be the first one to know when we are ready with the list of our personal favorites across the world. In the meantime leave your email so that we can email you our favorites in the city of your choice.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Explore now!</a>",
           "form": {
-            "title": "SUBSCRIBE",
-            "action": "mreichert@avantoria.com",
+            "action": "rreichert@gmail.com",
             "alerts": {
               "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
             },
             "fields": {
               "name": {
-                "visible": true,
-                "title": "Full Name",
+                "title": "First Name",
                 "customTitle": "Full Name"
               },
+              "lastName": {
+                "title": "Last Name",
+                "customTitle": "Your City"
+              },
               "email": {
-                "visible": true,
                 "title": "Email",
                 "customTitle": "Email Address here"
               }
@@ -1178,16 +1237,18 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
+          "_name": "form4",
+          "_anchor": "form4-2u",
           "_styles": {
-            "H3": {
-              "color": "#ffffff"
+            "H5": {
+              "color": "#ffffff",
+              "font-size": "60px"
             },
             "P": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "17px"
             }
-          },
-          "_anchor": "header4-2s"
+          }
         }
       ]
     },

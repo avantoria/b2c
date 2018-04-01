@@ -210,6 +210,14 @@ p {
 #pricing-table1-1q H3 {
   text-align: center;
 }
+#form4-2x H5 {
+  color: #ffffff;
+  font-size: 60px;
+}
+#form4-2x P {
+  color: #ffffff;
+  font-size: 17px;
+}
 #msg-box18-10 H3 {
   color: #222222;
 }
@@ -282,11 +290,13 @@ p {
 #dropdown-menu-2r .navbar-toggler {
   color: #ffffff;
 }
-#header4-2s H3 {
+#form4-2u H5 {
   color: #ffffff;
+  font-size: 60px;
 }
-#header4-2s P {
+#form4-2u P {
   color: #ffffff;
+  font-size: 17px;
 }
 #dropdown-menu-2k .hide-buttons [data-button] {
   display: none !important;
