@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -287,10 +287,13 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/upcoming-trips-wide-bg-1008x731.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
             },
             "video": {
-              "active": true,
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
@@ -298,8 +301,8 @@
               "loop": false
             }
           },
-          "title": "FINDING MADE EASY",
-          "text": "Gone are the days where you have to browse through multiple search engines, websites, apps, magazines and what not. Find the best places taylored to your taste in one single app easy and fast.&nbsp;",
+          "title": "RECOMMENDATIONS THAT MATTER&nbsp;",
+          "text": "Rather than ratings from foreigners or systems that are not familiar with your preferences, we believe it is your favorite experts, bloggers and friends who know the best places. Instead of spending hours exploring the options across different search engines, be delighted by the recommendations from your trusted sources.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -351,8 +354,8 @@
               "loop": false
             }
           },
-          "title": "RECOMMENDATIONS THAT MATTER",
-          "text": "How to find the best places? We believe it is your favorite experts, favorite bloggers and friends who know where to go. Matched with your personal preferences, you will find all the best places in one app so that every single experience will be simply fantastic.",
+          "title": "EXPLORE THE UNIMAGINEABLE&nbsp;",
+          "text": "Prepare for a trip in a way that has not been possible before. Add destinations and see all the places your favorite chefs, baristas, bloggers, friends and all others you selected as sources enjoy in one single app. Dream and reminisce about experiences in a way no other app can offer.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -360,58 +363,6 @@
           ],
           "_name": "msg-box5",
           "_anchor": "msg-box5-1t",
-          "_styles": {
-            "H3": {
-              "font-size": "36px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showMedia": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "media": {
-            "image": {
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "images/iphone.png"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "NO MORE UNRELIABLE FEEDBACK",
-          "text": "The value of ratings from foreigners with a completely different taste is limited. With Avantoria this unreliable feedback becomes a thing of the past as we eliminate foreign sources entirely. You will only get recommendations from the individuals you select.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-1u",
           "_styles": {
             "H3": {
               "font-size": "36px"
@@ -444,10 +395,13 @@
             "image": {
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/share-copy-2-1008x732.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
             },
             "video": {
-              "active": true,
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
@@ -456,7 +410,7 @@
             }
           },
           "title": "SHARING 2.0",
-          "text": "Do you create email templates you send when being asked about your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click. However again just with those individuals you have established a connection with.&nbsp;",
+          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -490,25 +444,25 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.8"
           },
-          "title1": "Download and explore.",
-          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Sign me up!</a>",
+          "title1": "Explore the best places now.",
+          "text": "Select the city and the expert you want to receive recommendations from and be delighted with fantastic options.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBMIT</a>",
           "form": {
             "title": "SUBSCRIBE",
             "action": "mreichert@avantoria.com",
             "alerts": {
-              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
+              "success": "Uh-oh, I am sorry! You caught us a little too early as we are not quite there yet. Stay tuned for the app!"
             },
             "fields": {
               "name": {
                 "visible": true,
                 "title": "Full Name",
-                "customTitle": "Full Name"
+                "customTitle": "City"
               },
               "email": {
                 "visible": true,
                 "title": "Email",
-                "customTitle": "Email Address here"
+                "customTitle": "Expert"
               }
             }
           },
@@ -905,7 +859,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10800.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1464x10801.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
