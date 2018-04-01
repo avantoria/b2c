@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "index.html",
+    "currentPage": "faq.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -27,7 +27,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 110,
+    "uniqCompNum": 127,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -921,7 +921,7 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "title": "Finding great places in only 4 steps.",
+          "title": "Finding great places in only 5 steps.",
           "text": "",
           "alias": "unicore/components",
           "_tags": [
@@ -932,10 +932,12 @@
         },
         {
           "_params": {
-            "blocks": "5",
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
@@ -946,29 +948,137 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5,
-            "icon1": "fa-user",
-            "icon2": "fa-share-alt",
-            "icon3": "fa-globe",
-            "icon4": "fa-smile",
-            "icon5": "fa-share"
+            "overlayOpacity": 0.75
           },
-          "title1": "CREATE YOUR PROFILE",
-          "title2": "FOLLOW your experts",
-          "title3": "explore your options&nbsp;",
-          "title4": "ENJOY",
-          "title5": "SHARE",
-          "text1": "Our goal is to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile.&nbsp;",
-          "text2": "Choose from a list of your favorite chefs, baristas, bloggers, friends, family and colleagues, or whomever else you trust for recommendations. It is you who is in the driver's seat when it comes to nominating your experts.&nbsp;",
-          "text3": "Whether you are looking for new gems in your hometown or for your next trip, browse through the places your experts endorse and see what makes them special. Combined with your personal preferences this will ensure that each one of those places will be truly delighting.&nbsp;",
-          "text4": "This one is simple: just go there and enjoy the offering!",
-          "text5": "Help your friends have a delighting experience and help this fantastic gem to be found by sharing the place with your friend or relative.&nbsp;",
+          "title": "1 CREATE YOUR PROFILE",
+          "text": "Our goal is to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "content7",
-          "_anchor": "content7-2d"
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "2 FOLLOW YOUR EXPERTS",
+          "text": "Choose from a list of your favorite chefs, baristas, bloggers, friends, family and colleagues, or whomever else you trust for recommendations. It is you who is in the driver's seat when it comes to nominating your experts. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3f"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "3 EXPLORE YOUR OPTIONS&nbsp;",
+          "text": "Whether you are looking for new gems in your hometown or for your next trip, browse through the places your experts endorse and see what makes them special. Combined with your personal preferences this will ensure that each one of those places will be truly delighting. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3g"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "4 ENJOY",
+          "text": "This one is simple: just go there and enjoy the offering!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Purchase now</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3h"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "5 SHARE",
+          "text": "Help your friends have a delighting experience and help this fantastic gem to be found by sharing the place with your friend or relative. ",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participate now</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3i"
         },
         {
           "_params": {
