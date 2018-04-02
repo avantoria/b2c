@@ -752,8 +752,8 @@
             "icon1": "fa-tags",
             "icon2": "fa-bullhorn",
             "icon3": "fa-calendar",
-            "icon4": "fa-user",
-            "icon5": "fa-star",
+            "icon4": "fa-star",
+            "icon5": "fa-user",
             "icon6": "fa-comments"
           },
           "media": {
@@ -770,15 +770,15 @@
           "title1": "Today",
           "title2": "Endorsed by",
           "title3": "Upcoming",
-          "title4": "Profile History",
-          "title5": "Feedback",
+          "title4": "Favorites of your Network",
+          "title5": "Profile History",
           "title6": "Share",
           "text1": "Our lists of local businesses got you covered for every time of the day.",
-          "text2": "See where your select experts like to go.",
-          "text3": "Prepare for the next trip by browsing through the recommended best local places today.&nbsp;",
-          "text4": "Your profile will become a set of memories allowing you to immerse in your experiences.",
-          "text5": "Let the local business know what you think was great and what could be improved.",
-          "text6": "Share your favorite places with whomever you wish with one single click.",
+          "text2": "See where your select experts, like business owners and bloggers, like to go.",
+          "text3": "Prepare for your next trips by saving must-visit places to the trip library.",
+          "text4": "See which local gems your friends, family and colleagues truly enjoy.&nbsp;",
+          "text5": "Your profile will become a set of memories allowing you to immerse in your experiences.",
+          "text6": "Share your favorite places with people you select with one single click.",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
