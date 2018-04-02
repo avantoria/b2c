@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -151,7 +151,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
@@ -189,7 +189,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -231,7 +231,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
@@ -271,7 +271,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -327,7 +327,7 @@
             "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": "0",
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -382,7 +382,7 @@
             "paddingTop": 2,
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -414,7 +414,7 @@
             }
           },
           "title": "SHARING 2.0",
-          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.",
+          "text": "It's no longer necessary to earmark somewhere the recommendations you receive or to write email templates when you want to give tips. With Avantoria you can share your favorite places in just one click, eliminating all the complicated steps that noone needs.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -438,7 +438,7 @@
             "bgImageRadio": false,
             "paddingTop": "2",
             "paddingBottom": "1",
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -469,8 +469,8 @@
               "loop": false
             }
           },
-          "title": "Profile Reimagined",
-          "text": "Do you create email templates to share your favorite places in your hometown? Bid farewell to those. With Avantoria you can share your favorite places in just one click.",
+          "title": "Your Profile, Just Different",
+          "text": "By saving all of your experiences on a global map, your profile becomes a world of discoveries, of bucked lists and countries. See where your trips have already taken you and explore what is still outstanding. &nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -543,7 +543,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#0a364b",
@@ -613,7 +613,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -702,7 +702,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
@@ -736,7 +736,7 @@
             "paddingTop": "1",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
@@ -767,18 +767,18 @@
               "title": ""
             }
           },
-          "title1": "Recommendations",
-          "title2": "Trending Today",
-          "title3": "Your Next Trip",
+          "title1": "Today",
+          "title2": "Endorsed by",
+          "title3": "Upcoming",
           "title4": "Profile History",
           "title5": "Feedback",
           "title6": "Share",
-          "text1": "Find all the recommended places from your trusted experts and friends in one spot&nbsp;",
-          "text2": "Our lists of local businesses got you covered for every time of the day",
+          "text1": "Our lists of local businesses got you covered for every time of the day.",
+          "text2": "See where your selected experts like to go in Miami.",
           "text3": "Prepare for the next trip by browsing through the recommended best local places today&nbsp;",
-          "text4": "Your profile will become a set of memories ready to be shared with your community",
+          "text4": "Your profile will become a set of memories allowing you to immerse in your experiences.",
           "text5": "Let the local business know what you think was great and what could be improved",
-          "text6": "Share your favorite places with friends, colleagues and family with one single click",
+          "text6": "Share your favorite places with whomever you wish with one single click",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -909,7 +909,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1075.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -918,8 +918,8 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayColor": "#213c45",
+            "overlayOpacity": "0.5"
           },
           "title": "Finding great places in only 5 steps.",
           "text": "",
@@ -938,7 +938,7 @@
             "paddingTop": 2,
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -951,7 +951,7 @@
             "overlayOpacity": 0.75
           },
           "title": "1 CREATE YOUR PROFILE",
-          "text": "Our goal is to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile. ",
+          "text": "We strive to create a highly unique experience for you. To make sure you find the places that you will truly enjoy, you will be able to select personal preferences and dietary needs (i.e. vegetarian, vegan, paleo, low-carb) when creating your profile. ",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -968,7 +968,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -998,7 +998,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1011,7 +1011,7 @@
             "overlayOpacity": 0.75
           },
           "title": "3 EXPLORE YOUR OPTIONS&nbsp;",
-          "text": "Whether you are looking for new gems in your hometown or for your next trip, browse through the places your experts endorse and see what makes them special. Combined with your personal preferences this will ensure that each one of those places will be truly delighting. ",
+          "text": "Whether you are looking for new gems in your hometown or for your next trip, browse through the places your experts endorse and see what makes the place's offering unique. Combined with your personal preferences this will ensure that each one of those places will be truly delighting. ",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -1028,7 +1028,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1058,7 +1058,7 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1071,7 +1071,7 @@
             "overlayOpacity": 0.75
           },
           "title": "5 SHARE",
-          "text": "Help your friends have a delighting experience and help this fantastic gem to be found by sharing the place with your friend or relative. ",
+          "text": "Help your friends have a delighting experience and help this fantastic gem to be found by sharing the place with your friends or relatives. ",
           "buttons": " <a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participate now</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -1119,8 +1119,8 @@
               "loop": false
             }
           },
-          "title": "Get started now.",
-          "text": "Create a community with your most loyal customers today and elevate their experiences world-wide to a new level.",
+          "title": "Download now.",
+          "text": "Benefit from your trusted friends and experts, and help others immerse in experiences as good as yours.",
           "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -1193,7 +1193,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1620x1080.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -1203,7 +1203,7 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.5"
           },
           "title": "ABOUT",
           "text": "Our mission.&nbsp;",
@@ -1220,7 +1220,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1233,8 +1233,8 @@
             "overlayOpacity": 0.5
           },
           "title": "HoW IT all started",
-          "text1": "We love to travel and to discover the world, and we equally love superior coffee ahd food experiences. So whenever we are traveling, we are researching online to find the best small businesses representing the local culture and offering the superior quality that we are used to from our favorite shops in our hometown. Yet the current recommendation systems do not really facilitate this discovery, as the collection of places comes completely unfiltered, and the ratings come from foreigners who may have a completely different taste. Even though we spend massive amounts of time trying to find the local gems it is more likely that we cannot find what we are hoping for than being completely delighted. ",
-          "text2": "We thought that there has to be a better way of recommendation systems providing actual value to businesses and consumers. We at Avantoria believe that If there is one group who knows great places offering a superior quality and splendid experience, then these are the business owners themselves. If we would receive a list of favorites from our preferred business in every city that we are visiting, there is no doubt that we will be delighted at all times.&nbsp;<br>Our mission is to create a community of passionate business owners and enthusiastic customers to ensure an experience of consistent superior quality no matter where they are.&nbsp;",
+          "text1": "We love to travel, and we equally love discovering hidden local gems, especially in the coffee and food business. So whenever we are traveling, we find ourselves researching online for the best small businesses representing the local culture and offering the superior quality that we are used to from our favorite shops in our hometown. Yet the current recommendation systems do not really facilitate this discovery, as the collection of places comes unfiltered, and the ratings stem from foreigners who may have a completely different taste. Even though we spend massive amounts of time trying to find the local gems, it is more likely that we cannot find what we are hoping for than being delighted. ",
+          "text2": "We thought that there has to be a better way of recommendation systems providing actual value to businesses and consumers. We at Avantoria believe that If there is one group who knows great places offering a superior quality and splendid experience, then these are the business owners themselves. If we would receive a list of places our local gem loves in the city that we are visiting, there is no doubt that we will be delighted at all times.&nbsp;<br>Ultimately our mission is to create a community of passionate business owners and enthusiastic customers to ensure an experience of consistent superior quality no matter where they are.&nbsp;",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -1308,7 +1308,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#0a364b",
