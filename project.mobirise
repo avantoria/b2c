@@ -140,7 +140,7 @@
           },
           "title": "All favorite places of your bloggers and chefs at your fingertips.&nbsp;",
           "text": "Enjoy superior experiences everywhere and anytime thanks to your experts.&nbsp;",
-          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
