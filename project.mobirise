@@ -139,7 +139,7 @@
             }
           },
           "title": "The World's Most Amazing Places At Your Fingertips",
-          "text": "Because your trusted Bloggers &amp; Chefs know where to find the best places. Get them all in one single App.",
+          "text": "Because your trusted bloggers &amp; chefs know where to find them.<br>Get the app and start exploring now.",
           "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
