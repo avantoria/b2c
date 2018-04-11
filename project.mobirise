@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "about-us.html",
+    "currentPage": "notready.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -943,8 +943,8 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.8"
           },
-          "title1": "Thank you for your interest!",
-          "text": "&nbsp;You've caught us before we are ready. Register now to be updated when the sails are set.",
+          "title1": "Let us connect with you.",
+          "text": "&nbsp;You've caught us before we are ready. However we would love to provide you with a sneak peek on recommendations from your trusted experts. Please leave your email address here and we will be in touch shortly.",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">I Want to learn more.</a>",
           "form": {
             "title": "SUBSCRIBE",
