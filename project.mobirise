@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "notready.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -138,7 +138,7 @@
               "loop": false
             }
           },
-          "title": "The World's Most Amazing Places At Your Fingertips",
+          "title": "<b>The World's Most Amazing Places At Your Fingertips</b>",
           "text": "Because your trusted bloggers &amp; chefs know where to find them.<br>Get the app and start exploring now.",
           "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
@@ -943,7 +943,7 @@
             "overlayColor": "#151515",
             "overlayOpacity": "0.8"
           },
-          "title1": "Let us connect with you.",
+          "title1": "Let us connect with you",
           "text": "&nbsp;You've caught us before we are ready. However we would love to provide you with a sneak peek on recommendations from your trusted experts. Please leave your email address here and we will be in touch shortly.",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">I Want to learn more.</a>",
           "form": {
