@@ -166,6 +166,20 @@ p {
 #dropdown-menu-1a .navbar-toggler {
   color: #ffffff;
 }
+#msg-box18-4s H3 {
+  color: #222222;
+}
+#msg-box4-4t H3 {
+  text-align: left;
+  font-size: 36px;
+}
+#msg-box5-4u H3 {
+  font-size: 36px;
+}
+#msg-box4-4v H3 {
+  text-align: left;
+  font-size: 36px;
+}
 
 #dropdown-menu-1b .hide-buttons [data-button] {
   display: none !important;
