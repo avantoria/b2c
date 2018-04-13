@@ -27,7 +27,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 180,
+    "uniqCompNum": 183,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -169,10 +169,10 @@
             "overlayOpacity": 0.5,
             "showIcons": true,
             "iconsColor": "@primaryColor",
-            "icon1": "fa-mobile",
-            "icon2": "fa-heart",
-            "icon3": "fa-check-circle",
-            "icon4": "fa-lightbulb-o"
+            "icon1": "fa-thumbs-up",
+            "icon2": "fa-trophy",
+            "icon3": "fa-paint-brush",
+            "icon4": ""
           },
           "title1": "Simple And Fun",
           "title2": "Trustful Recommendations Only",
