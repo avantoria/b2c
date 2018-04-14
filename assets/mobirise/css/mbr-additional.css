@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
 
 .btn.btn-primary {
@@ -179,6 +180,16 @@ p {
 #msg-box4-4v H3 {
   text-align: left;
   font-size: 36px;
+}
+#pricing-table1-53 SPAN {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+#pricing-table1-53 UL {
+  font-size: 16px;
+}
+#pricing-table1-53 H3 {
+  text-align: center;
 }
 
 #dropdown-menu-1b .hide-buttons [data-button] {

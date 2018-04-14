@@ -27,7 +27,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 183,
+    "uniqCompNum": 184,
     "versionPublish": "4.6.6",
     "favicon": "",
     "noImageResize": "",
@@ -386,6 +386,79 @@
             }
           },
           "_anchor": "msg-box4-4v"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "elements": "3",
+            "best": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#0a364b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "How avantoria works",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed do eiusmod tempor posuere molestie lorem lectus interdum augue",
+          "favorite": "Most Importantly",
+          "title1": "Create your Profile",
+          "text1": "",
+          "currency1": "",
+          "price1": "",
+          "period1": "",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite experts, bloggers and friends<br></span></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
+          "title2": "SEARCH FOR PLACES",
+          "text2": "",
+          "currency2": "",
+          "price2": "",
+          "period2": "",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Discover only those places that match your preferences</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Find out what your recommenders enjoy about these places</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Have a great experience</span></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"ourfavorits.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Check our favorites</a>",
+          "title3": "ShARE YOUR GREAT EXPERIENCE",
+          "text3": "",
+          "currency3": "",
+          "price3": "",
+          "period3": "",
+          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Share your secret gems to your network</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Help your friends have splendid experiences</span></li><li class=\"pricing__feature\">Benefit from a community that shares your values</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"faq.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn mbr-title-font btn-primary\">CHOOSE PLAN</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "14px"
+            },
+            "UL": {
+              "font-size": "16px"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "pricing-table1-53"
         },
         {
           "_params": {
