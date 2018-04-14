@@ -139,7 +139,7 @@
             }
           },
           "title": "<b>The World's Most Amazing Places At Your Fingertips</b>",
-          "text": "Because your trusted bloggers &amp; chefs know where to find them.<br>Get the app and start exploring now.",
+          "text": "Discover the easy and reliable way of recommendations with all the favorite places of your trusted bloggers and chefs in one single app.<br>Get the app and start exploring now.",
           "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"notready.html\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -174,13 +174,13 @@
             "icon3": "fa-paint-brush",
             "icon4": ""
           },
-          "title1": "Simple And Fun",
+          "title1": "Simple And Fun<br><br>",
           "title2": "Trustful Recommendations Only",
-          "title3": "Customize Your Search",
+          "title3": "Customize Your Search<br><br>",
           "title4": "Flashy Look",
           "text1": "Don't spend time searching through a stockpile of places. Get the best ones in one condensed overview, making exploring simple and fun.&nbsp;",
-          "text2": "Your trusted experts are the most qualified and reliable recommenders of all the raters you could find. Benefit from their knowledge.&nbsp;",
-          "text3": "Whether you have dietary needs or particular preferences, on Avantoria you will always find great places recommended by your trusted experts in an easy way.&nbsp;",
+          "text2": "Now you can benefit from the skills and insights of your favorite bloggers &amp; chefs no matter where you are. Because who could give you better recommendations than they can?&nbsp;",
+          "text3": "Whether you have dietary needs or particular preferences, Avantoria will help you find great places that fulfill your wishes in a way you have always been hoping for.&nbsp;",
           "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
           "alias": "unicore/components",
           "_tags": [
@@ -261,7 +261,7 @@
             }
           },
           "title": "GREAT RECOMMENDATIONS",
-          "text": "Rather than ratings from foreigners that are not familiar with your preferences, we believe it is your favorite experts, bloggers and friends who know the best places and will delight you with great recommendations.",
+          "text": "Rather than ratings from foreigners that are not familiar with your preferences, we believe it is your favorite experts, bloggers and friends who know the best places and will delight you with great recommendations. Decide yourself whom you want to follow.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -317,7 +317,7 @@
             }
           },
           "title": "EXPLORE THE UNIMAGINEABLE&nbsp;",
-          "text": "Prepare for a trip in a way that has not been possible before. Add destinations and see all the places your favorite bloggers, chefs and your other experts enjoy in one single app.&nbsp;",
+          "text": "Prepare for a trip in a way that has not been possible before. Add destinations and see all the places your favorite bloggers, chefs and your other experts enjoy in that city, transforming the search function into a simple and fun discovery.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
