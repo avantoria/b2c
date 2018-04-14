@@ -432,7 +432,7 @@
           "price3": "",
           "period3": "",
           "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Share your secret gems to your network</span></li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Help your friends have splendid experiences</span></li><li class=\"pricing__feature\">Benefit from a community that shares your values</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"faq.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
           "title4": "SUPER",
           "text4": "Perfect for small less than 10 team",
           "currency4": "$",
