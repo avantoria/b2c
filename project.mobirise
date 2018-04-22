@@ -127,9 +127,10 @@
               "class": "pull-left",
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/headline-copy-2-792x644.png",
-              "link": "",
+              "link": "#bottom",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "title": "The Only Restaurant Discovery App That Knows What You Want",
