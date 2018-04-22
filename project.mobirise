@@ -134,7 +134,7 @@
           },
           "title": "The Only Restaurant Discovery App That Knows What You Want",
           "text": "Discover the easy and reliable way of recommendations with all the favorite places of your trusted bloggers and chefs in one single app. Learn more now.",
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; Discover your favorites</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; Discover your favorites</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
