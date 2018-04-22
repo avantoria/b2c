@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "notready.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -126,7 +126,7 @@
               "active": true,
               "class": "pull-left",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-16-at-9.52.43-pm-792x538.png",
+              "src": "@PROJECT_PATH@/assets/images/headline-792x644.png",
               "link": "",
               "alt": "",
               "title": ""
