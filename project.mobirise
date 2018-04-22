@@ -27,7 +27,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 202,
+    "uniqCompNum": 203,
     "versionPublish": "4.7.1",
     "favicon": "",
     "noImageResize": "",
@@ -526,9 +526,9 @@
           "text": "Download AVANTORIA from the AppStore and start discovering.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-primary\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get THE APP</a>",
           "form": {
-            "action": "rreichert@gmail.com",
+            "action": "mreichert@avantoria.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thank you for you interest in Avantoria. We will be in touch shortly."
             },
             "fields": {
               "email": {
