@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "about-us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -134,7 +134,7 @@
             }
           },
           "title": "The Only Restaurant Discovery App That Knows What You Want",
-          "text": "Discover the easy and reliable way of recommendations with all the favorite places of your trusted bloggers and chefs in one single app. Learn more now.",
+          "text": "Discover the easy and reliable way of recommendations with all the favorite places of your trusted influencers in one single app. Learn more now.",
           "buttons": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; Discover your favorites</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -179,7 +179,7 @@
           "title2": "Trustful Recommendations Only<br><br>",
           "title3": "Customize Your Search<br><br>",
           "title4": "",
-          "text1": "Don't spend time searching through an infinite list of restaurants. Find the ones your trusted advisors recommend, making exploring simple and fun.&nbsp;",
+          "text1": "Don't spend time searching through an infinite list of restaurants. Find the ones your trusted influencers recommend, making exploring simple and fun.&nbsp;",
           "text2": "A list of recommenders of your own choosing will ensure that every tip you receive is valuable and trustful.&nbsp;",
           "text3": "Whether you have dietary needs or particular preferences, Avantoria will help you have wonderful dining experiences without any heavy research involved.&nbsp;",
           "text4": "",
@@ -270,7 +270,7 @@
             }
           },
           "title": "GREAT RECOMMENDATIONS",
-          "text": "Rather than ratings from foreigners that are not familiar with your preferences, we believe it is you who knows best whom to trust, say your favorite bloggers, influencers and chefs when it comes to delighting and great best places.&nbsp;",
+          "text": "Rather than ratings from foreigners that are not familiar with your preferences, we believe it is you who knows best whom to trust, say your favorite friends, chefs and bloggers when it comes to delighting and great restaurants.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -327,7 +327,7 @@
             }
           },
           "title": "Share your favorites",
-          "text": "It only takes only one click to let your network know which restaurants you enjoy, helping your social community have a great experience at your favorite places.&nbsp;",
+          "text": "It only takes one click to let your network know which restaurants you enjoy, helping your social community have a great experience at your favorite places.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -440,7 +440,7 @@
             }
           },
           "title": "EXPLORE THE UNIMAGINEABLE&nbsp;",
-          "text": "Shape your next adventure from your couch in a game-changing way. Discover the best restaurants your favorite trustees enjoy at your next destination and save them to your Avantoria trip library, making the most out of your culinary journey.&nbsp;",
+          "text": "Shape your next adventure from your couch in a game-changing way. Discover the best restaurants your favorite influencers enjoy at your next destination and save them to your Avantoria trip library, making the most out of your culinary journey.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"faq.html\">SHOW ME MORE</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -485,7 +485,7 @@
           "currency1": "",
           "price1": "",
           "period1": "",
-          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite reliable recommenders<br></span></li></ul>",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Sign up for free&nbsp;</li><li class=\"pricing__feature\">Save your personal preferences for a customized search</li><li class=\"pricing__feature\"><span style=\"font-size: 16px;\">Connect with your favorite reliable influencers<br></span></li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Sign up now</a>",
           "title2": "SEARCH FOR PLACES",
           "text2": "",
@@ -918,7 +918,7 @@
           },
           "title": "HoW IT all started",
           "text1": "We love to travel, and we equally love discovering authentic and creative restaurants, especially in the coffee and food business. So whenever we are traveling, we find ourselves researching online for the best small businesses representing the local culture and offering the superior quality that we are used to from our favorite shops in our hometown. Yet the current recommendation systems do not really facilitate this discovery, as the collection of places comes unfiltered, and from foreigners who may have a completely different taste.&nbsp;<br>We thought there has to be a better way of recommendation systems providing actual value to consumers.&nbsp;",
-          "text2": "We at Avantoria believe that if there is one group who knows great places offering a superior quality and splendid experience, then these are your favorite sources, like influencers, bloggers and chefs. If we would receive all the favorite places our reliable recommenders love in the city that we are visiting, paired with our personal preferences, there is no doubt that the days of disappointing experiences are over. In a world that becomes more and more digital, ultimately our mission is to use the digital environment to enhance the physical touchpoint: by creating more unique experiences and by shaping a new type of community among experts and followers.&nbsp;",
+          "text2": "We at Avantoria believe that if there is one group who knows great places offering a superior quality and splendid experience, then these are your favorite influencers, like your friends, chefs, and bloggers. If we would receive all the favorite places our reliable recommenders love in the city that we are visiting, paired with our personal preferences, there is no doubt that the days of disappointing experiences are over. In a world that becomes more and more digital, ultimately our mission is to use the digital environment to enhance the physical touchpoint: by creating more unique experiences and by shaping a new type of community among experts and followers.&nbsp;",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
