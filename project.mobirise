@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "B2C Landing Page - Rewards Simple-v2",
-    "currentPage": "about-us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -41,7 +41,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "AVANTORIA",
+        "title": "Restaurant-Discovery App",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -73,7 +73,7 @@
           "_params": {
             "logo": false,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "transparent": true,
             "bgColor": "#0a364b",
@@ -135,7 +135,7 @@
           },
           "title": "The Only Restaurant Discovery App That Knows What You Want",
           "text": "Discover the easy and reliable way of recommendations with all the favorite places of your trusted experts in one single app. Learn more now.",
-          "buttons": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; Discover your favorites</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"notready.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; Register Now</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -639,7 +639,7 @@
           "_params": {
             "logo": false,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "transparent": true,
             "bgColor": "#0a364b",
@@ -845,7 +845,7 @@
           "_params": {
             "logo": false,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "transparent": true,
             "bgColor": "#0a364b",
@@ -1006,7 +1006,7 @@
           "_params": {
             "logo": false,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "transparent": true,
             "bgColor": "#0a364b",
@@ -1126,7 +1126,7 @@
           "_params": {
             "logo": false,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "transparent": true,
             "bgColor": "#0a364b",
